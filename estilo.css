@@ -14,7 +14,6 @@ body{
 div{
     break-inside: avoid-column;
     border-radius: 30px;
-    width:90%;
     text-align: justify;
     padding: 5px;
 }
