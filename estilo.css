@@ -35,7 +35,6 @@ section#conteudo p{
 }
 @media (max-width:1100px){
     section#conteudo{
-        column-count: 2;
         padding:0px;
     }
 }
@@ -91,7 +90,6 @@ section.titulomateira h1{
 
 }
 div.documental{
-    columns: 360px;
     break-inside: none;
 }
 footer{
