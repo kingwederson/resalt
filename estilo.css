@@ -21,12 +21,12 @@ div{
 section#menu{
     border-bottom: 4px solid blue;
 }
-section#conteudo{
+section#conteudo,article{
     width:100%;
     margin: 0px auto;
     padding:0px;
     max-width:777px;
-    background-color: rgb(0,128,0);
+    background-color: rgba(0,128,0,0.8);
     color:white;
 }
 section#conteudo p{
