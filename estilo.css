@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+body{
+    /*background-image: url("https://image.freepik.com/vetores-gratis/maos-terra_54199-310.jpg") opacity(50%);*/
+    background-attachment: fixed;
+    background-position: center top;
+    background-color:#008000;
+    display:block;
+    color: black;
+    font-size: 16pt;
+    margin:4px auto 4px auto;
+}
+div{
+    break-inside: avoid-column;
+    border-radius: 30px;
+    width:90%;
+    text-align: justify;
+    padding: 5px;
+}
+section#menu{
+    border-bottom: 4px solid blue;
+}
+section#conteudo{
+    width:100%;
+    margin: 0px auto;
+    padding:0px;
+    column-count: 3;
+    background-color: rgb(0,128,0);
+    color:white;
+}
+@media (max-width:1100px){
+    section#conteudo{
+        column-count: 2;
+        padding:0px;
+    }
+}
+@media (max-width:720px){
+    section#conteudo{
+        column-count: 1;
+        width:100%;
+        padding:0px;
+    }
+    div{
+        width:90%;
+        margin:auto 5% 10px 5%;
+    }
+    h1{
+        text-align: center;
+    }
+}
+section{
+    width:100%;
+    align-items: center;
+}
+section#cabecalho{
+    width:100%;
+    margin: auto;
+    padding:0px;
+    overflow:hidden;
+    background-color: #ffea7f;
+}
+section#cabecalho p{
+    text-align: center;
+    font-size: 36px;
+    text-indent:0px;
+}
+@media (max-width:1000px){
+    section#cabecalho td{
+        font-size: 18px;
+        padding:0px;
+    }
+}
+section#menu{
+    /*background-image: url(https://expertoenseo.pe/wp-content/uploads/2019/01/Las-mejores-t%C3%A9cnicas-y-estrategias-de-ventas.jpg);*/
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:55%;
+    background-size: 100%;
+    /*height: 35vh;*/
+    width:100%;
+}
+section.nivelmaior{
+    background-color:#ffea7f;
+}
+section.titulomateira h1{
+    color: rgb(255,255,255);
+
+}
+div.documental{
+    columns: 360px;
+    break-inside: none;
+}
+footer{
+    min-width:200px;
+    padding:40px;
+    display:block;
+    margin: auto;
+    text-align: center;
+    background-color: #ffea7f;
+}
+footer p{
+    text-align: center;
+    font-family: serif;
+    font-size:14pt;
+    padding:-10px auto;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-indent: 0px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+a.chamada{
+    margin: 10px auto 10px auto;
+    padding: 20px;
+}
+.chamada h1{
+    background-color: white;
+    color: red;
+}
+b{
+    color:yellow;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size:36pt;
+    color:black;
+}
+h2{
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: 20pt;
+}
+h3{
+    text-align: center;
+    font-family: 'Rockwell';
+    font-size: 18pt;
+    font-style: 'normal';
+}
+h4{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 16pt;
+    font-style: 'bold';
+}
+div p{
+    padding:0.4cm;
+    color:white;
+}
+section#conteudo p{
+    text-indent: 0px;
+}
+p{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 60px;
+    color:black;
+}
+li{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 12pt;
+    text-align: justify;
+    text-indent: 60px;
+}
+iframe{
+    width:100vw;
+    height:120vh;
+}
+img.logo{
+    height: 200px;
+    max-width: 90vmin;
+    padding:0px;
+    display: block;
+}
+img.icone{
+    display: inline-block;
+    float:bottom;
+    max-width:32px;
+    max-height:32px;
+}
+img.banner{
+    padding:10px;
+    margin:12px auto 12px auto;
+    max-width:600px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+}
+img.imagemcapitular{
+    float:left;
+    max-height:100px;
+    padding:10px;
+}
+img.padrao{
+    width:200px;
+}
+img.imagemdeservico{
+    max-width:95vmin;
+    max-height:100px;
+    margin-left: none;
+    margin-right: none;
+}
+input[type="button"]{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	padding: 10px 10px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#5c7cb2),
+		to(#365186));
+	background: linear-gradient(
+		top,
+		#5c7cb2 0%,
+		#365186);/**/
+	border-radius: 15px;
+	border: 1px solid #5c7cb2;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(087,087,087,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+section#menu{
+    min-height: 20%;
+}
+section#menu ul{
+    list-style:none;
+    margin:0;
+}
+nav.menu li{
+    position:relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: darkgreen;
+	background:#ffea7f;
+	border-radius: 0px;
+    border: 1px solid #5c7cb200;/*
+	box-shadow:0px 1px 3px rgba(0,0,0,0.5);
+    text-shadow:0px -1px 0px rgba(0,0,0,0.4);*/
+    padding:20px;
+}
+section#menu li:hover{
+    color:white;
+    background-color: darkgreen;
+    transition: 2s;
+}
+@media (max-width:700px){
+    section#menu li{
+        font-size:10pt;
+        padding:10px;
+    }
+    table#tabelacontato{
+        margin:0px auto;
+        position:relative;
+    }
+}
+li{
+    text-indent: 0px;
+}
+nav{
+    text-align:center;
+}
+span.datapublicacao{
+    text-indent: 0px;
+    font-size:10pt;
+}
+table#tabelacontato{
+    float:top;
+    margin:0px auto;
+    top:0px;
+    right:0px;
+    position:absolute;
+}
+table.patrocinio td{
+    vertical-align: center;
+    text-align: center;
+    text-align: center;
+}
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 15px;
+}
+/* alça */
+::-webkit-scrollbar-thumb {
+  background: darkblue; 
+  border-radius: 10px;
+}
+
+/* alça ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: purple; 
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+@media (min-width:800px){
+    div#menuservicos{
+        display:none;
+    }
+}
+div.artcard{
+    border:1px dotted white;
+    break-inside: avoid-column;
+}
+article#conteudo{
+    column-width: 360px;
+}

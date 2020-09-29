@@ -1,0 +1,12 @@
+article{
+    width:100%;
+    margin: 1cm auto;
+    padding-top:1cm;
+    column-count: 3;
+    background-color: darkgreen;
+    color:white;
+}
+article p{
+    color:white;
+    padding:0.3cm;
+}
