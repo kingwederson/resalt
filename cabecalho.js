@@ -22,7 +22,7 @@ function carregaComum(){
             <nav class="menu">
                 <ul>
                     <a href="index.html" target="_top"><li><br>Início</li></a>
-                    <a href="quemsomos.html#titulo" target="_top"><li>Quem<br>Somos</li></a>
+                    <a href="quemsomos.html#titulo" target="_top"><li>Quem Somos</li></a>
                     <a href="servicos.html" target="_top"><li><br>Serviços</li></a>
                     <a href="blog.html#titulo" target="_top"><li><br>Blog</li></a>
                     <a href="contato.html" target="_top"><li><br>Contato</li></a>
