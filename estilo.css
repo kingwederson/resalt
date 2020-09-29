@@ -3,7 +3,9 @@ body{
     /*background-image: url("https://image.freepik.com/vetores-gratis/maos-terra_54199-310.jpg") opacity(50%);*/
     background-attachment: fixed;
     background-position: center top;
-    background-color:#008000;
+    background-image:url("https://image.freepik.com/fotos-gratis/local-de-construcao_53876-14088.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display:block;
     color: black;
     font-size: 16pt;
@@ -23,9 +25,12 @@ section#conteudo{
     width:100%;
     margin: 0px auto;
     padding:0px;
-    column-count: 3;
+    max-width:777px;
     background-color: rgb(0,128,0);
     color:white;
+}
+section#conteudo p{
+    line-height: 1.5em;
 }
 @media (max-width:1100px){
     section#conteudo{
@@ -120,6 +125,9 @@ a.chamada{
 }
 b{
     color:yellow;
+}
+h1,h2,h3{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 h1{
     text-align: center;
@@ -316,5 +324,5 @@ div.artcard{
     break-inside: avoid-column;
 }
 article#conteudo{
-    column-width: 360px;
+    max-width:777px;
 }
