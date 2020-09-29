@@ -27,6 +27,8 @@ section#conteudo,article{
     max-width:777px;
     background-color: rgba(0,128,0,0.8);
     color:white;
+    border-radius: 16px;
+    margin-bottom: 40px;
 }
 section#conteudo p{
     line-height: 1.5em;
@@ -39,7 +41,6 @@ section#conteudo p{
 }
 @media (max-width:720px){
     section#conteudo{
-        column-count: 1;
         width:100%;
         padding:0px;
     }
@@ -174,7 +175,7 @@ li{
     text-indent: 60px;
 }
 iframe{
-    width:100vw;
+    max-width: 777px;
     height:120vh;
 }
 img.logo{
