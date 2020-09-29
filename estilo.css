@@ -282,7 +282,7 @@ span.datapublicacao{
     font-size:10pt;
 }
 table#tabelacontato{
-    float:top;
+    display:block;
     margin:0px auto;
     top:0px;
     right:0px;
