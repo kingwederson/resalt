@@ -324,3 +324,17 @@ div.artcard{
 article#conteudo{
     max-width:777px;
 }
+img.fotoperfil{
+    max-width: 256px;
+    max-height: 265px;
+    display: inline-block;
+    border-radius: 40px;
+}
+img.joaomarcos{
+    content:url("https://i.imgur.com/nybscUw.jpg");
+}
+img.wederson{
+    content:url("https://i.imgur.com/AZ9QuIO.png");
+    object-position: top;
+    object-fit: cover;
+}
