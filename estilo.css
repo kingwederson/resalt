@@ -194,7 +194,6 @@ img.banner{
     max-width:600px;
 }
 img{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     max-width:100%;
@@ -325,16 +324,14 @@ article#conteudo{
     max-width:777px;
 }
 img.fotoperfil{
-    max-width: 256px;
-    max-height: 265px;
-    display: inline-block;
-    border-radius: 40px;
+    float:left;
+    max-width:256px;
+    padding:10px;
+    border-radius: 64px;
 }
 img.joaomarcos{
-    content:url("https://i.imgur.com/nybscUw.jpg");
+    content:url("https://i.imgur.com/5h9tnGL.jpg");
 }
 img.wederson{
-    content:url("https://i.imgur.com/AZ9QuIO.png");
-    object-position: top;
-    object-fit: cover;
+    content:url("https://i.imgur.com/eUp4ikT.png");
 }
